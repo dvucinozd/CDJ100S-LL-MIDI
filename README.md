@@ -129,6 +129,19 @@ cd CDJ100S-LL-MIDI
 
 ### Build
 
+#### PlatformIO (Preporučeno)
+
+Projekt je konfiguriran za **PlatformIO** koji omogućava jednostavan build bez instalacije STM32CubeIDE-a.
+
+1. **Otvori Folder** u VS Code (sa PlatformIO ekstenzijom)
+2. **Build**:
+   - Klikni na `Build` ikonu (kvačica) u donjem lijevom kutu
+   - Ili u terminalu: `pio run`
+3. **Upload**:
+   - Spoji Blue Pill preko ST-Linka
+   - Klikni na `Upload` ikonu (strelica)
+   - Ili u terminalu: `pio run -t upload`
+
 #### STM32CubeIDE
 
 1. **Import Projekt**
